@@ -1,4 +1,4 @@
-# TimeWise – Smart Mobile Barcode-Based Student Late Entry Management & Punctuality Enhancement
+# TimeWise –  Student Late Entry Management & Punctuality Enhancement
 
 > A production-grade, full-stack **MERN** web application engineered for colleges and educational institutions to eliminate manual late registers, scan student ID barcodes with a mobile camera, enforce server-authoritative timestamps, prevent duplicate late entries, analyze punctuality patterns, and export audit reports as PDF and Excel.
 
