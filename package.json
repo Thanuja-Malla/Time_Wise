@@ -1,0 +1,26 @@
+{
+  "name": "timewise-system",
+  "version": "1.0.0",
+  "description": "TimeWise – Smart Mobile Barcode-Based Student Late Entry Management and Punctuality Enhancement",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "npm run seed --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "mern",
+    "barcode-scanner",
+    "late-entry",
+    "student-management",
+    "attendance",
+    "timewise"
+  ],
+  "author": "TimeWise Team",
+  "license": "MIT"
+}
